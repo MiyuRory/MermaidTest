@@ -15,7 +15,7 @@ graph TD
     F1 -->|No| R2[Incrementar contador de recuperatorios]
     R2 --> F2{Contador < 2?}
     F2 -->|Sí| F[Recuperatorio]
-    F2 -->|No| Z[Recurza la materia]
+    F2 -->|No| Z[Recursa la materia]
     G --> H{Es promocional?}
     H -->|Sí| I{Obtuvo nota para promocionar?}
     I -->|Sí| Y[Aprobaste la materia]
